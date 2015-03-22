@@ -1,0 +1,32 @@
+Subject	: unique integer identifier for each individual that took part in the experiment (values 1-30)
+Activity : activity labels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+Mean and standard deviatin variables with the patttern <Type>-<Stats>-<Axis>, where
+
+<Type>
+tBodyAcc : time domain body acceleration sygnals in -XYZ directions
+tGravityAcc : time domain gravity acceleration in -XYZ directions
+tBodyAccJerk : time domain body linear acceleration in -XYZ directions
+tBodyGyro : time domain from gyroscope in -XYZ directions
+tBodyGyroJerk : body angular velocity signals from gyroscope for body in -XYZ directions
+tBodyAccMag : magnitude value for tBodyAcc
+tGravityAccMag : magnitude value for tGravityAcc
+tBodyAccJerkMag : magnitude value for tBodyAccJerk
+tBodyGyroMag :  magnitude value for tBodyGyro
+tBodyGyroJerkMag : magnitude value for tBodyGyroJerk
+fBodyAcc: Fast Fourier Transform (FFT) for body acceleration in -XYZ directions
+fBodyAccJerk: Fast Fourier Transform (FFT) for body acceleration in -XYZ directions
+fBodyGyro : Fast Fourier Transform (FFT) body linear acceleration in -XYZ directions
+fBodyAccMag : magnitude for fBodyAcc
+fBodyAccJerkMag : : magnitude for fBodyAccJerk
+fBodyGyroMag : : magnitude for fBodyGyro
+fBodyGyroJerkMag : : magnitude for fBodyGyroJerk
+
+<Stats>
+mean(): Mean value
+std(): Standard deviation
+
+<Axis>: 
+X, Y or Z directions.
+
+
